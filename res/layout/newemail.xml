@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="@drawable/bkg3">
+
+  <ScrollView
+     android:layout_weight="30"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" > 
+     
+      <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/tvNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Picture(s) added as attachment !"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>      
+          
+    <TextView
+        android:id="@+id/tvNewEmail"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : "
+        android:textSize="25dp" 
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/tvNewEmailAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" 
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        />
+ 
+
+    <TextView
+        android:id="@+id/tvNewSubject"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject :"
+        android:textSize="25dp" 
+        android:textColor="#FFFFFF"/>
+    
+    <EditText
+        android:id="@+id/NewSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvNewContent"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Content :"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF" />
+    
+    <EditText
+        android:id="@+id/NewContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+        
+   
+    
+    <Button 
+        android:id="@+id/bNewSend"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btn_sel"
+        android:text="Send"/>
+    
+
+        </LinearLayout>
+	</ScrollView>
+</LinearLayout>

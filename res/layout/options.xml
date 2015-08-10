@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bkg3">
+
+    <TextView 
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Choose one of the following actions :"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"/>
+    
+    <Button
+        android:id="@+id/prevPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="114dp"
+        android:background="@drawable/btn_sel"
+        style="@style/btn"
+        android:padding="15dp"
+        android:text="Send a previous photo"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/newPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_sel"
+        style="@style/btn"
+        android:padding="15dp"
+        android:text="Take a picture"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF" />
+
+
+
+</RelativeLayout>

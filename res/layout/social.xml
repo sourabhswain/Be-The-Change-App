@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bkg3">
+
+    <TextView
+        android:id="@+id/tvPrevSocial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on the buttons to share the Images"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+    
+<Button
+            android:id="@+id/bPrevFb"
+            style="@style/btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="75dp"
+            android:padding="40dp"
+            android:background="@drawable/btn_sel"
+            android:text="Share Picture(s) on Facebook" />
+
+        <Button
+            android:id="@+id/bPrevT"
+            style="@style/btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="40dp"
+            android:background="@drawable/btn_sel"
+            android:text="Share Picture(s) on Twitter" />
+    
+</LinearLayout>
